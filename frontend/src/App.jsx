@@ -11,7 +11,7 @@ export default function App() {
             setItems(data);
             setLoaded(true);
         } catch (err) {
-            console.error("error fetching items", err)
+            console.error("error fetching items lol", err)
         }
     }
 
