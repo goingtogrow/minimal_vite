@@ -6,7 +6,7 @@ export default function App() {
 
     const loadItems = async () => {
         try {
-            const res = await fetch("http://localhost:3001/api/items");
+            const res = await fetch("/api/items");
             const data = await res.json();
             setItems(data);
             setLoaded(true);
