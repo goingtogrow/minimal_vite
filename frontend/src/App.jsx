@@ -32,6 +32,11 @@ export default function App() {
                     ))}
                 </ul>
             )}
+            <div>
+                <img src="/images/photo1.jpg" alt="Фото 1" />
+                <img src="/images/photo2.jpg" alt="Фото 2" />
+                <img src="/images/photo3.png" alt="Фото 3" />
+            </div>
         </div>
     );
 }
